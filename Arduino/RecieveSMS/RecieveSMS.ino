@@ -64,11 +64,12 @@ void loop() {
 }
 
 // Function that sends SMS
+/*
 void sendSMS(String message) {
   // AT command to set SerialAT to SMS mode
   SerialAT.print("AT+CMGF=1\r");
   delay(100);
-  SerialAT.println("AT+CMGS=\"+523314173023\"");
+  SerialAT.println("AT+CMGS=\"+521122223333\"");
   delay(100);
   SerialAT.print(message);
   delay(100);
@@ -78,3 +79,4 @@ void sendSMS(String message) {
   SerialAT.println();
   delay(5000);
 }
+*/
