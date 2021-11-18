@@ -62,16 +62,16 @@ los utilizamos con el '+' al principio y sin espacios intermedios.
 | `message`  | `string` | **Requerido**. Mensaje a enviar |
 
 
+
 ## App Móvil
-Optamos por mantener el código de la app móvil en un repositorio
-adicional: https://github.com/franciscogonzalez08/puntoMedioIoT
+La aplicación móvil, creada utilizando Flutter y dart, permite al
+usuario apartar uno o más lockers y desocuparlos cuando así lo desee.
+El código se encuentra en la carpeta "Mobile App" en este repositorio.
 
 ### Setup
-Únicamente se debe clonar el repositorio, instalar los 
-paquetes del `pubspec.yaml` (en VS Code basta con utilizar
-`Ctrl + S` en el archivo) y correr el código en un emulador
-o celular. Se recomienda tener las extensiones *Dart* y 
-*Flutter* para VS Code.
+Para ejecutar la aplicación se debe clonar el repositorio, 
+entrar a la carpeta, instalar los paquetes del `pubspec.yaml` 
+(en VS Code basta con utilizar `Ctrl + S` en el archivo) y correr el código en un emulador o celular. Se recomienda tener las extensiones *Dart* y *Flutter* para VS Code.
 
 ### Referencia de colores
 | Color             | Hex                                                                |
