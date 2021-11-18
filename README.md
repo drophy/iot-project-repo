@@ -11,8 +11,7 @@ utilizado en nuestro proyecto final de IoT (Punto Medio).
 
 ## Código para el ESP32
 El código programa a un microcontrolador **ESP32 con capacidad GSM** 
-para que pueda recibir mensajes SMS y en caso de que este 
-contenga el texto "Locker 2A" pone en `LOW` por 3 segundos el pin
+(ESP32 SIM800L) para que pueda recibir mensajes SMS y en caso de que este contenga el texto "Locker 2A" pone en `LOW` por 3 segundos el pin
 correspondiente a ese locker y después retorna a `HIGH`. Esto con
 el fin de desbloquear temporalmente el locker. 
 
@@ -80,5 +79,5 @@ o celular. Se recomienda tener las extensiones *Dart* y
 | Nav Color         | ![#009688](https://via.placeholder.com/10/009688?text=+) 0xFF009688 |
 | Header Color      | ![#4DB6AC](https://via.placeholder.com/10/4DB6AC?text=+) 0xFF4DB6AC |
 | Button Color1     | ![#1CD8D2](https://via.placeholder.com/10/1CD8D2?text=+) 0xFF1CD8D2 |
-| Button Color2     | ![#FFFFFF](https://via.placeholder.com/10/FFFFFF?text=+) 0xFFE5E5E5 |
+| Button Color2     | ![#FFFFFF](https://via.placeholder.com/10/FFFFFF?text=+) 0xFFFFFFFF |
 | Card Color        | ![#E5E5E5](https://via.placeholder.com/10/E5E5E5?text=+) 0xFFE5E5E5 |
